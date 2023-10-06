@@ -8,8 +8,6 @@ CREATE TABLE articles
   summary         text NOT NULL,                             
   content         mediumtext NOT NULL,                      
  
-  PRIMARY KEY     (id)
-);
 
 
 DROP TABLE IF EXISTS categories;
@@ -19,5 +17,7 @@ CREATE TABLE categories
   name            varchar(255) NOT NULL,
   description     text NOT NULL, 
   
+  PRIMARY KEY     (id)
+);
   PRIMARY KEY     (id)
 );
